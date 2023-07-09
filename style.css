@@ -11,7 +11,7 @@ body{
     border: none;
     color: #fff;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     padding: 15px 35px;
 }
 .section-title{
@@ -90,6 +90,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .banner-dsc{
     margin-top: 30px;
 
@@ -109,3 +112,48 @@ main{
 .about-info{
     text-align: center;
 }
+/* skills reated style*/
+#what-i-do-dsc{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-dsc{
+    color: #757575;
+}
+/* Resume section style */
+.resume-columm-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    font-family: 700;
+    font-size: 20px;
+}
+.resume-item-ins, .resume-item-dsc{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+
