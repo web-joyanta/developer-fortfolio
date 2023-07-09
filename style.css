@@ -12,7 +12,7 @@ body{
     color: #fff;
     font-size: 20px;
     font-weight: 400;
-    padding: 15px 35px;
+    padding: 10px 35px;
 }
 .section-title{
     color: var(--dark-01, #181818);
@@ -154,6 +154,29 @@ main section{
 }
 .download-cv{
     text-align: center;
-    margin-top: 20px;
+    margin: 50px 0;
 }
+/* footer part start */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-icon a{
+    margin-right: 25px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+}
+
 
